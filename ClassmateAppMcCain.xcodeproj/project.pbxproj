@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +30,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		E76AD8D22CAD737200279E81 /* Exceptions for "ClassmateAppMcCain" folder in "ClassmateAppMcCain" target */ = {
+		E76AD8D22CAD737200279E81 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -40,24 +40,9 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		E76AD8A92CAD736F00279E81 /* ClassmateAppMcCain */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				E76AD8D22CAD737200279E81 /* Exceptions for "ClassmateAppMcCain" folder in "ClassmateAppMcCain" target */,
-			);
-			path = ClassmateAppMcCain;
-			sourceTree = "<group>";
-		};
-		E76AD8C32CAD737200279E81 /* ClassmateAppMcCainTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ClassmateAppMcCainTests;
-			sourceTree = "<group>";
-		};
-		E76AD8CD2CAD737200279E81 /* ClassmateAppMcCainUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ClassmateAppMcCainUITests;
-			sourceTree = "<group>";
-		};
+		E76AD8A92CAD736F00279E81 /* ClassmateAppMcCain */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (E76AD8D22CAD737200279E81 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = ClassmateAppMcCain; sourceTree = "<group>"; };
+		E76AD8C32CAD737200279E81 /* ClassmateAppMcCainTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ClassmateAppMcCainTests; sourceTree = "<group>"; };
+		E76AD8CD2CAD737200279E81 /* ClassmateAppMcCainUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ClassmateAppMcCainUITests; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +185,7 @@
 				};
 			};
 			buildConfigurationList = E76AD8A22CAD736F00279E81 /* Build configuration list for PBXProject "ClassmateAppMcCain" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -208,7 +194,6 @@
 			);
 			mainGroup = E76AD89E2CAD736F00279E81;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = E76AD8A82CAD736F00279E81 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
